@@ -1,6 +1,6 @@
 <?php 
 	
-header("Access-Control-Allow-Origin: *");
+ header("Access-Control-Allow-Origin: *");
 header( 'Location: /index.html' )
 
 	$book_list = [];
