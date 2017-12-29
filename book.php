@@ -1,7 +1,6 @@
 <?php 
 	
- header("Access-Control-Allow-Origin: *");
-header( 'Location: /index.html' );
+
 
 	$book_list = [];
 	$json = json_decode(file_get_contents("http://mcc-ws-odd1718.herokuapp.com/books.php"));
